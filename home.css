@@ -731,25 +731,28 @@ height: auto; /* Maintain aspect ratio */
     max-width: 90%;
     margin-bottom: 20px;
   }
-
   .about {
-    height: 38rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Push content to top and bottom */
+    height: 40rem;
   }
 
   .about h2 {
-    font-size: 2.4rem;
+    font-size: 3.3rem;
   }
 
   .about-content {
     flex-direction: column;
     align-items: center;
+    margin-top: auto; /* Push content to the bottom */
   }
 
   .about-content p {
-    font-size: 1rem;
+    font-size: 1.3rem;
     text-align: center;
   }
-
+}
   .cta h2 {
     font-size: 2rem;
   }
@@ -762,7 +765,6 @@ height: auto; /* Maintain aspect ratio */
     font-size: 1rem;
     padding: 0.8rem 1.5rem;
   }
-}
 
 
 
@@ -896,7 +898,7 @@ height: auto; /* Maintain aspect ratio */
 /* Base styles for the signature dishes */
 .signature-dishes {
   padding: 20px;
-  background-color: #f9f9f9;
+  background-color: rgb(253, 246, 237);
 }
 
 .dish {
@@ -949,10 +951,13 @@ height: auto; /* Maintain aspect ratio */
 @media (max-width: 767px) {
   .signature-dishes {
       padding: 10px;
+      height: 80rem;
   }
   
   .signature-dishes h1{
-    font-size: 1.8rem;
+    font-size: 2.4rem;
+    text-align: center;
+    padding-bottom: 3rem;
 }
 
   .dish-content {
@@ -966,12 +971,12 @@ height: auto; /* Maintain aspect ratio */
   }
 
   .dish-content .text h2 {
-      font-size: 1.4rem;
+      font-size: 1.9rem;
       margin-bottom: 8px;
   }
 
   .dish-content .text p {
-      font-size: 0.9rem;
+      font-size: 1.2rem;
       color: #777;
   }
 
