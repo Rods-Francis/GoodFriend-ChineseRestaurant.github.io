@@ -1,0 +1,1 @@
+# GoodFriend-ChineseRestaurant.github.io
