@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="menu.css">
+    
+    <title>menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <section>
+
+    <header>
+
+        <a href="#" class="logo">
+            <img src="Logo1.png" height="60px" width="70px">
+            
+        </a>
+            
+        <nav class="nav-bar">
+         <a class="active" href="index.html"> Home</a>
+         <a href="Menu.html"> Menu </a>
+         <a href="location.html"> Location</a>
+         <a href="about.html"> About</a> 
+         <a href="Contact.html"> Contact</a>   
+        </nav>
+        
+
+    
+   
+        <div class="icons">
+            <i class="fa-solid fa-bars" id="menubars"></i>
+            <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+            <a href="#" class="fa solid fa-heart"></a>
+            <i class="fa-solid fa-cart-shopping" id="cart-icon"></i>
+        </div> 
+
+    <div id="cart-dropdown" style="display: none;">
+        <h2>Your Cart</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: $<span id="total-price">0.00</span></p>
+        <button id="order-now">Order Now</button>
+    </div>
+
+
+
+
+</header>
+
+<form action="" id="search-form">
+    <input type="search" placeholder="search here..." id="search-box">
+    <label for="search-box" class="fa-solid fa-magnifying-glass"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+
+    </section>
+
+    <div class="carousel-container">
+        <div class="carousel">
+          <img src="Car_1.jpg" alt="Image 1">
+          <img src="car_2.jpg" alt="Image 2">
+          <img src="car_3.jpg" alt="Image 3">
+        </div>
+        <button class="carousel-control-prev">&#10094;</button>
+        <button class="carousel-control-next">&#10095;</button>
+      </div>
+
+
+
+    <div class="menu-section">
+        <h2>Best Sellers</h2>
+        <div class="menu-container">
+            <div class="menu-item">
+                <img src="menu_img1.jpg" alt="Grilled Salmon">
+                <div class="details">
+                    <h3>Soy Fried Chicken noodles</h3>
+                    <p>₱160</p>
+                </div>
+                <div class="overlay">
+                    <button>Add to Order</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="menu5.jpg" alt="Steak">
+                <div class="details">
+                    <h3>Woonton noodles soup</h3>
+                    <p>₱139</p>
+                </div>
+                <div class="overlay">
+                    <button>Add to Order</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="menu3.jpg" alt="Pasta Carbonara">
+                <div class="details">
+                    <h3>Braised Beef noodles soup </h3>
+                    <p>₱139</p>
+                </div>
+                <div class="overlay">
+                    <button>Add to Order</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu-section">
+        <h2>Rice Toppings</h2>
+        <div class="menu-container">
+            <div class="menu-item">
+                <img src="Menu2.jpg" alt="Spring Rolls">
+                <div class="details">
+                    <h3 >Macao Sausage</h3>
+                    <p>₱160 </p>
+                </div>
+                <div class="overlay">
+                    <button>Add to Order</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="menu4.jpg" alt="Garlic Bread">
+                <div class="details">
+                    <h3>Fish Fillet</h3>
+                    <p>₱139</p>
+                </div>
+                <div class="overlay">
+                    <button>Add to Order</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="porkbelly.png" alt="Garlic Bread">
+                <div class="details">
+                    <h3>Pork belly</h3>
+                    <p>₱149</p>
+                </div>
+                <div class="overlay">
+                    <button>Add to Order</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="menu8.jpg" alt="Bruschetta">
+                <div class="details">
+                    <h3>Grilled Salmon</h3>
+                    <p>₱115</p>
+                </div>
+                <div class="overlay">
+                    <button>Add to Order</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu-section">
+        <h2>Noodles/soup</h2>
+        <div class="menu-container">
+            <div class="menu-item">
+                <img src="menu_img1.jpg" alt="Cheesecake">
+                <div class="details">
+                    <h3>Grilled Salmon</h3>
+                    <p>₱160</p>
+                </div>
+                <div class="overlay">
+                    <button>Add to Order</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="menu5.jpg" alt="Chocolate Cake">
+                <div class="details">
+                    <h3>Grilled Salmon</h3>
+                    <p>₱139</p>
+                </div>
+                <div class="overlay">
+                    <button>Add to Order</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="menu3.jpg" alt="Ice Cream Sundae">
+                <div class="details">
+                    <h3>Grilled Salmon</h3>
+                    <p>₱115</p>
+                </div>
+                <div class="overlay">
+                    <button>Add to Order</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="menu10.jpg" alt="Ice Cream Sundae">
+                <div class="details">
+                    <h3>Grilled Salmon</h3>
+                    <p>₱115</p>
+                </div>
+                <div class="overlay">
+                    <button>Add to Order</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>143 Lucena City, Pob 2</p>
+                <p><a href="mailto:agsdfoodhouse@gmail.com">Email:  agsdfoodhouse@gmail.com</a></p>
+                <p><a href="tel:+0977 380 0240">Phone: +0977 380 0240</a></p>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/agsdgoodfriend"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Good Friend Chinese Restaurant. All rights reserved.</p>
+        </div>
+    </footer>
+    
+<script src="script.js"></script>
+</body>
+</html>
